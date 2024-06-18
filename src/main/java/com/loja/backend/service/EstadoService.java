@@ -6,8 +6,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.dev.backend.entity.Estado;
-import com.dev.backend.repository.EstadoRepository;
+import com.loja.backend.entity.Estado;
+import com.loja.backend.repository.EstadoRepository;
 
 @Service
 public class EstadoService {

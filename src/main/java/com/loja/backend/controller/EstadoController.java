@@ -2,7 +2,6 @@ package com.loja.backend.controller;
 
 import java.util.List;
 
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -15,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.dev.backend.entity.Estado;
-import com.dev.backend.service.EstadoService;
+import com.loja.backend.entity.Estado;
+import com.loja.backend.service.EstadoService;
 
 @RestController
 @RequestMapping("/api/estado")
