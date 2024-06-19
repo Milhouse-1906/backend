@@ -1,6 +1,5 @@
 package com.loja.backend.service;
 
-import java.lang.module.Configuration;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +10,7 @@ import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;
 import org.springframework.ui.freemarker.FreeMarkerTemplateUtils;
 
+import freemarker.template.Configuration;
 import jakarta.mail.MessagingException;
 import jakarta.mail.internet.MimeMessage;
 
