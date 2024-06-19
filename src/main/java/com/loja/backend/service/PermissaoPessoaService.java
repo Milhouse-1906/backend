@@ -12,6 +12,7 @@ import com.loja.backend.entity.Pessoa;
 import com.loja.backend.repository.PermissaoPessoaRepository;
 import com.loja.backend.repository.PermissaoRepository;
 
+
 @Service
 public class PermissaoPessoaService {
 

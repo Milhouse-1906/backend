@@ -1,6 +1,6 @@
 package com.loja.backend.entity;
 
-import java.util.Collection;
+
 import java.util.Date;
 import java.util.List;
 
@@ -17,8 +17,7 @@ import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import jakarta.persistence.Temporal;
 import jakarta.persistence.TemporalType;
-import lombok.AccessLevel;
-import lombok.Setter;
+
 
 @Entity
 @Table(name = "pessoa")
@@ -42,7 +41,6 @@ public class Pessoa  {
     private Cidade cidade;
 
     @OneToMany(mappedBy = "pessoa", orphanRemoval = true, cascade = {CascadeType.PERSIST, CascadeType.MERGE}, fetch = FetchType.EAGER)
-    @Setter(value = AccessLevel.NONE)
     private List<PermissaoPessoa> permissaoPessoas;
 
     @Temporal(TemporalType.TIMESTAMP)
